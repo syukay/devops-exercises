@@ -604,6 +604,9 @@ tail -f <file_name>
 * Run `dstat -t` to check if it's related to disk or network.
 <img width="1531" height="581" alt="image" src="https://github.com/user-attachments/assets/2e07fed4-7aba-4a30-a509-57387822a242" />
 * Check if it's network related with `sar`
+<img width="1381" height="439" alt="image" src="https://github.com/user-attachments/assets/a61057c5-c45f-494f-9903-ebb457ccfcf7" />
+
+  
 * Check I/O stats with `iostat`
 <img width="1526" height="615" alt="image" src="https://github.com/user-attachments/assets/a982a47d-5d39-46d5-9115-5a4ec85b3874" />
 
@@ -611,6 +614,15 @@ tail -f <file_name>
 
 <details>
 <summary>Explain iostat output</summary><br><b>
+  | Column      | Description                                                                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **%user**   | Percentage of time the CPU spends running processes in **user space**.                                                                |
+| **%nice**   | Percentage of time the CPU spends running **low-priority user processes** whose priority has been adjusted with `nice`.               |
+| **%system** | Percentage of time the CPU spends running processes in **kernel space** (mainly system calls).                                        |
+| **%iowait** | Percentage of time the CPU spends **waiting for I/O** (disk, network, etc.) to complete. A high value may indicate an I/O bottleneck. |
+| **%steal**  | Percentage of CPU time **stolen by the hypervisor**, typically seen in virtual machines.                                              |
+| **%idle**   | Percentage of time the CPU is **idle** (not being used).                                                                              |
+
 </b></details>
 
 <details>
