@@ -293,7 +293,8 @@ Here are some common examples of IO redirection:
 * Redirecting Input (stdin):
   <code>sort < unsorted.txt</code>
 * Using Pipes: Pipes ("|"):
-  <code>ls | grep "\.txt$"</code>         
+  <code>ls | grep "\.txt$"</code>
+  Send the standard output (stdout) of the previous command directly to the standard input (stdin) of the next command.
 </b></details>
 
 <details>
