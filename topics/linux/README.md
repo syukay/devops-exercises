@@ -614,14 +614,16 @@ tail -f <file_name>
 
 <details>
 <summary>Explain iostat output</summary><br><b>
-| Column      | Description                                                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| %user   | Percentage of time the CPU spends running processes in user space.                                                                |
-| %nice   | Percentage of time the CPU spends running low-priority user processes whose priority has been adjusted with `nice`.               |
-| %system | Percentage of time the CPU spends running processes in kernel space (mainly system calls).                                        |
-| %iowait | Percentage of time the CPU spends waiting for I/O (disk, network, etc.) to complete. A high value may indicate an I/O bottleneck. |
-| %steal  | Percentage of CPU time stolen by the hypervisor, typically seen in virtual machines.                                              |
-| %idle   | Percentage of time the CPU is idle (not being used).                                                                              |
+  
+| Column  | Description                                                                                                              
+| %user   | Percentage of time the CPU spends running processes in user space.                                                           
+| %nice   | Percentage of time the CPU spends running low-priority user processes whose priority has been adjusted with `nice`.          
+| %system | Percentage of time the CPU spends running processes in kernel space (mainly system calls).                                   
+| %iowait | Percentage of time the CPU spends waiting for I/O (disk, network, etc.) to complete. A high value may indicate an I/O bottleneck. 
+| %steal  | Percentage of CPU time stolen by the hypervisor, typically seen in virtual machines.                                         
+| %idle   | Percentage of time the CPU is idle (not being used).                                                                         
+
+
 
 
 </b></details>
