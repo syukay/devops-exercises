@@ -472,6 +472,12 @@ Using `sudo setfacl -m u::rx /usr/bin/chmod` will set the execute permissions on
 <summary>You would like to copy a file to a remote Linux host. How would you do?</summary><br><b>
 
 There are multiple ways to transfer files between hosts. Personal opinion: use `rsync`
+`rsync -avz /local/file  user@remote_host:/remote/path/`
+-a: archive mode, preserves file permissions, timestamps, symbolic links, and other attributes.
+
+-v: verbose, displays detailed output during the process.
+
+-z: compresses data during transfer to speed up the process (especially useful for slow networks or large files).
 </b></details>
 
 <details>
