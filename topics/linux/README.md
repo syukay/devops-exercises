@@ -566,6 +566,23 @@ tail -f <file_name>
 
 <code>dstat -t</code> is great for identifying network and disk issues.
 <code>opensnoop</code> can be used to see which files are being opened on the system (in real time).
+
+`uptime`
+`top`
+`mpstat`
+`iostat`
+<img width="1526" height="615" alt="image" src="https://github.com/user-attachments/assets/a982a47d-5d39-46d5-9115-5a4ec85b3874" />
+
+`vmstat`
+<img width="1693" height="289" alt="image" src="https://github.com/user-attachments/assets/92ba526f-a532-4227-8480-e410b65e1599" />
+
+`free`
+<img width="1599" height="204" alt="image" src="https://github.com/user-attachments/assets/bc0f0722-bff9-4b20-899e-76fd14a2eb19" />
+
+`dstat`
+<img width="1531" height="581" alt="image" src="https://github.com/user-attachments/assets/2e07fed4-7aba-4a30-a509-57387822a242" />
+
+
 </b></details>
 
 <details>
